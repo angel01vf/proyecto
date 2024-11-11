@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #D8BFD8;
+}
+
+.content {
+    text-align: center;
+    background-color: #FDF5E6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn a, .btn button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn a:hover, .btn button:hover {
+    background-color: #000000;
+}
+
+
+.btn {
+    position: relative; /* Necesario para que los botones se posicionen de forma correcta */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Ajusta la altura según tu diseño */
+}
+
+.btn-no {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-no:hover {
+    background-color: #f5c6cb;
+}
